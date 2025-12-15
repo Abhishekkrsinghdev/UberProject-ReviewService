@@ -14,7 +14,8 @@ import java.time.LocalDateTime;
 @NoArgsConstructor
 @AllArgsConstructor
 @Entity
-@Table(name="bookingreview")
+@Table(name="booking_review")
+@Inheritance(strategy = InheritanceType.JOINED)
 public class Review extends Base{
     @Column(nullable = false)
     private String content;
