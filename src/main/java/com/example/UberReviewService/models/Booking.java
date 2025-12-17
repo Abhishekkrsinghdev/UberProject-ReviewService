@@ -11,7 +11,7 @@ import java.time.LocalDateTime;
 @Builder
 @NoArgsConstructor
 @AllArgsConstructor
-public class Booking extends Base{
+public class Booking extends BaseModel {
 
     @OneToOne(cascade = {CascadeType.PERSIST,CascadeType.REMOVE})
     private Review review;

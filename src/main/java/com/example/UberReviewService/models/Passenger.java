@@ -12,7 +12,7 @@ import java.util.List;
 @Setter
 @NoArgsConstructor
 @AllArgsConstructor
-public class Passenger extends Base{
+public class Passenger extends BaseModel {
     private String name;
 
     @OneToMany(mappedBy = "passenger")
