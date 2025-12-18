@@ -17,6 +17,5 @@ public interface ReviewRepository extends JpaRepository<Review,Long> {
 
     List<Review> findAllByCreatedAtBefore(LocalDateTime date);
 
-    @Query("SELECT b.review FROM Booking b WHERE b.id = :bookingId")
     Optional<Review> findReviewByBookingId(Long bookingId);
 }
