@@ -1,5 +1,7 @@
 package com.example.UberReviewService.models;
 
+import com.example.UberProject_EntityService.models.BaseModel;
+import com.example.UberProject_EntityService.models.Booking;
 import jakarta.persistence.*;
 import lombok.*;
 

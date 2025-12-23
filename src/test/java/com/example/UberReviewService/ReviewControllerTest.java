@@ -4,7 +4,6 @@ import com.example.UberReviewService.adapters.CreateReviewDtoToReviewAdapter;
 import com.example.UberReviewService.controllers.ReviewController;
 import com.example.UberReviewService.dtos.CreateReviewDto;
 import com.example.UberReviewService.dtos.ReviewDto;
-import com.example.UberReviewService.models.Booking;
 import com.example.UberReviewService.models.Review;
 import com.example.UberReviewService.services.ReviewService;
 import org.junit.jupiter.api.BeforeEach;
